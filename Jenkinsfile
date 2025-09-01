@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_PASSWORD = credentials('DOCKER_PASSWORD')
         FRONT_IMAGE_TAG = "mariemendoye/ml-frontend:${BUILD_NUMBER}"
-        FRONT_IMAGE_LATEST = "mariemndoye/ml-frontend:latest"
+        FRONT_IMAGE_LATEST = "mariemendoye/ml-frontend:latest"
     }
 
     stages {
