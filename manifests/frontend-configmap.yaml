@@ -4,5 +4,5 @@ metadata:
   name: frontend-configmap
   namespace: devops-project
 data:
-  REACT_APP_BACKEND_URL: http://localhost:30002
+  REACT_APP_BACKEND_URL: "http://localhost:30002"
   CHOKIDAR_USEPOLLING: "true"
