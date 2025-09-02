@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: frontend-configmap
-  namespace: devops
+  namespace: devops-project
 data:
   REACT_APP_BACKEND_URL: backend-service
   CHOKIDAR_USEPOLLING: "true"
